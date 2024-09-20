@@ -7,7 +7,7 @@ interface FetchOrdersParams {
   pageIndex?: number | null
 }
 
-interface FetchOrdersResponse {
+export interface FetchOrdersResponse {
   orders: {
     orderId: string
     createdAt: string
