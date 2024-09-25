@@ -12,7 +12,9 @@ if (env.VITE_ENABLE_API_DELAY) {
     // antes de todas as requisições do axios, essa função será chamada
     // config são os dados da requisição (body, headers, etc)
 
-    await new Promise((resolve) => setTimeout(resolve, 2000)) // delay de 2 segundos
+    await new Promise((resolve) =>
+      setTimeout(resolve, Math.round(Math.random() * 3000)),
+    ) // delay de 2 segundos
 
     return config
   })
