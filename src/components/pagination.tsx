@@ -41,7 +41,7 @@ export const Pagination = ({
             disabled={pageIndex === 0}
           >
             <ChevronsLeft className="h-4 w-4" />
-            <span className="sr-only">Ir para primeira página</span>
+            <span className="sr-only">Primeira página</span>
           </Button>
 
           <Button
@@ -51,7 +51,7 @@ export const Pagination = ({
             disabled={pageIndex === 0}
           >
             <ChevronLeft className="h-4 w-4" />
-            <span className="sr-only">Ir para página anterior</span>
+            <span className="sr-only">Página anterior</span>
           </Button>
 
           <Button
@@ -61,7 +61,7 @@ export const Pagination = ({
             disabled={pages <= pageIndex + 1}
           >
             <ChevronRight className="h-4 w-4" />
-            <span className="sr-only">Ir para próxima página</span>
+            <span className="sr-only">Próxima página</span>
           </Button>
 
           <Button
@@ -71,7 +71,7 @@ export const Pagination = ({
             disabled={pages <= pageIndex + 1}
           >
             <ChevronsRight className="h-4 w-4" />
-            <span className="sr-only">Ir para última página</span>
+            <span className="sr-only">Última página</span>
           </Button>
         </div>
       </div>
