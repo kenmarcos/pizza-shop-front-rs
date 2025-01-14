@@ -1,6 +1,6 @@
 import { api } from '@/lib/axios'
 
-interface SignUpBody {
+export interface SignUpBody {
   restaurantName: string
   managerName: string
   email: string
