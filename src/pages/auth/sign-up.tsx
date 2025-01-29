@@ -44,7 +44,7 @@ export const SignUp = () => {
         phone: data.phone,
       })
 
-      toast.success('Restaurante cadastrado com sucesso!.', {
+      toast.success('Restaurante cadastrado com sucesso!', {
         action: {
           label: 'Login',
           onClick: () => navigate(`/sign-in?email=${data.email}`),
